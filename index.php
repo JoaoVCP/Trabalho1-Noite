@@ -21,50 +21,44 @@ if( isset ($_POST) && !empty($_POST) ){
 <br>
 <form action="./index.php" method="post">
 
-<div class="card" style="width: 18rem;">
-  <div class="card-header">
-    <label><h3>Questão</h3></label><br>
-    <textarea name="pergunta" style="border-radius: 5px 5px 5px 5px" placeholder="Insira o enunciado da questão"></textarea>
+<label>Pergunta</label>
+<textarea name="pergunta"></textarea>
 
-    <br><br>
+<br><br>
 
-    <label>A)</label>
-    <input input class="form-check-input" type="radio" name="correta" value="A"/>
-    <input type="text" name="A" style="border-radius: 5px 5px 5px 5px" placeholder="Insira o texto da opção A"/>
+<label>A)</label>
+<input type="radio" name="correta" value="A" />
+<input type="text" name="A" />
 
-    <br><br>
+<br><br>
 
-    <label>B)</label>
-    <input input class="form-check-input" type="radio" name="correta" value="B"/>
-    <input type="text" name="B" style="border-radius: 5px 5px 5px 5px" placeholder="Insira o texto da opção B"/>
+<label>B)</label>
+<input type="radio" name="correta" value="B" />
+<input type="text" name="B" />
 
-    <br><br>
+<br><br>
 
-    <label>C)</label>
-    <input input class="form-check-input" type="radio" name="correta" value="C" />
-    <input type="text" name="C" style="border-radius: 5px 5px 5px 5px" placeholder="Insira o texto da opção C"/>
+<label>C)</label>
+<input type="radio" name="correta" value="C" />
+<input type="text" name="C" />
 
-    <br><br>
+<br><br>
 
-    <label>D)</label>
-    <input input class="form-check-input" type="radio" name="correta" value="D" />
-    <input type="text" name="D" style="border-radius: 5px 5px 5px 5px" placeholder="Insira o texto da opção D"/>
+<label>D)</label>
+<input type="radio" name="correta" value="D" />
+<input type="text" name="D" />
 
-    <br><br>
+<br><br>
 
-    <label>E)</label>
-    <input input class="form-check-input" type="radio" name="correta" value="E" />
-    <input type="text" name="E" style="border-radius: 5px 5px 5px 5px" placeholder="Insira o texto da opção E"/>
+<label>E)</label>
+<input type="radio" name="correta" value="E" />
+<input type="text" name="E" />
 
-    <br><br>
+<br><br>
 
-    <button type="button" class="btn btn-success">Salvar Pergunta</button>
+<button type="submit">Salvar Pergunta</button>
 
-    </form>
-    </div>
-</div>
-
-<br>
+</form>
 
 <?php
 
