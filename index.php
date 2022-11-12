@@ -59,6 +59,7 @@ if( isset ($_POST) && !empty($_POST) ){
 <button type="submit">Salvar Pergunta</button>
 
 </form>
+<br>
 
 <?php
 
