@@ -21,44 +21,49 @@ if( isset ($_POST) && !empty($_POST) ){
 <br>
 <form action="./index.php" method="post">
 
-<label>Pergunta</label>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+<label>Pergunta</label><br>
 <textarea name="pergunta"></textarea>
 
 <br><br>
 
 <label>A)</label>
-<input type="radio" name="correta" value="A" />
-<input type="text" name="A" />
+<input input class="form-check-input" type="radio" name="correta" value="A" />
+<input type="text" name="A" style="border-radius: 5px 5px 5px 5px"/>
 
 <br><br>
 
 <label>B)</label>
-<input type="radio" name="correta" value="B" />
-<input type="text" name="B" />
+<input input class="form-check-input" type="radio" name="correta" value="B" />
+<input type="text" name="B" style="border-radius: 5px 5px 5px 5px"/>
 
 <br><br>
 
 <label>C)</label>
-<input type="radio" name="correta" value="C" />
-<input type="text" name="C" />
+<input input class="form-check-input" type="radio" name="correta" value="C" />
+<input type="text" name="C" style="border-radius: 5px 5px 5px 5px"/>
 
 <br><br>
 
 <label>D)</label>
-<input type="radio" name="correta" value="D" />
-<input type="text" name="D" />
+<input input class="form-check-input" type="radio" name="correta" value="D" />
+<input type="text" name="D" style="border-radius: 5px 5px 5px 5px"/>
 
 <br><br>
 
 <label>E)</label>
-<input type="radio" name="correta" value="E" />
-<input type="text" name="E" />
+<input input class="form-check-input" type="radio" name="correta" value="E" />
+<input type="text" name="E" style="border-radius: 5px 5px 5px 5px"/>
 
 <br><br>
 
 <button type="button" class="btn btn-success">Salvar Pergunta</button>
 
 </form>
+</div>
+</div>
+
 <br>
 
 <?php
