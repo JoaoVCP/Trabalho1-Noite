@@ -1,6 +1,7 @@
 <?php
 
 include "conexao.php";
+include "cabecalho.php";
 
 if( isset ($_POST) && !empty($_POST) ){
     $pergunta = $_POST["pergunta"];
@@ -17,6 +18,7 @@ if( isset ($_POST) && !empty($_POST) ){
 }
 ?>
 
+<br>
 <form action="./index.php" method="post">
 
 <label>Pergunta</label>
@@ -54,9 +56,10 @@ if( isset ($_POST) && !empty($_POST) ){
 
 <br><br>
 
-<button type="submit">Salvar Pergunta</button>
+<button type="button" class="btn btn-success">Salvar Pergunta</button>
 
 </form>
+<br>
 
 <?php
 
