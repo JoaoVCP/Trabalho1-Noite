@@ -16,7 +16,7 @@ include "cabecalho.php";
         <h1 class="mt-2 text-center" style="font-family: 'Great Vibes', cursive; font-size: 100px;"><strong>Simulado</strong></h1>
         <p class="text-center">Responda as questões abaixo e envie o formulário clicando no botão ao final do teste para verificar pontuação. </p>
         <p class="text-center">Boa Sorte!</p>
-        <form action="./resultado.php" method="POST" onsubmit="return checar()">
+        <form action="./resultado.php" method="POST">
 <?php
     $i = 0;
     while($linha = mysqli_fetch_array($resultado)){
