@@ -38,37 +38,37 @@ if( isset ($_POST) && !empty($_POST) ){
 <form action="./index.php" method="post">
 
 <label>Pergunta</label>
-<textarea name="pergunta"></textarea>
+<textarea name="pergunta" required></textarea>
 
 <br><br>
 
 <label>A)</label>
-<input type="radio" name="correta" value="A" />
-<input type="text" name="A" />
+<input type="radio" name="correta" value="A" required/>
+<input type="text" name="A" required/>
 
 <br><br>
 
 <label>B)</label>
-<input type="radio" name="correta" value="B" />
-<input type="text" name="B" />
+<input type="radio" name="correta" value="B" required/>
+<input type="text" name="B" required/>
 
 <br><br>
 
 <label>C)</label>
-<input type="radio" name="correta" value="C" />
-<input type="text" name="C" />
+<input type="radio" name="correta" value="C" required/>
+<input type="text" name="C" required/>
 
 <br><br>
 
 <label>D)</label>
-<input type="radio" name="correta" value="D" />
-<input type="text" name="D" />
+<input type="radio" name="correta" value="D" required/>
+<input type="text" name="D" required/>
 
 <br><br>
 
 <label>E)</label>
-<input type="radio" name="correta" value="E" />
-<input type="text" name="E" />
+<input type="radio" name="correta" value="E" required/>
+<input type="text" name="E" required/>
 
 <br><br>
 
